@@ -1,0 +1,195 @@
+##############################
+# OS FILES (Windows + Ubuntu)
+##############################
+
+# Windows junk
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ubuntu/Linux junk
+*.swp
+*.swo
+*.swm
+*.swx
+.*~
+.cache/
+.config/
+.local/
+Trash/
+
+# macOS (if you ever use it)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+##############################
+# ENVIRONMENT CONFIG FILES
+##############################
+
+.env
+.env.*
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Secrets / Keys
+*.key
+*.pem
+
+##############################
+# NODE MODULES & BUILD FILES
+##############################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+
+dist/
+build/
+out/
+.next/
+.vercel/
+.netlify/
+.temp/
+temp/
+tmp/
+
+##############################
+# BACKEND / SERVER FILES
+##############################
+
+# Logs
+logs/
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.out
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Mongoose / Mongo dumps
+dump/
+*.bson
+*.metadata.json
+
+##############################
+# DATABASE / ORM IGNORES
+##############################
+
+# Prisma
+prisma/*.db
+prisma/migrations/*typescript.js
+
+# SQLite / local DB files
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+
+# Drizzle ORM
+.drizzle/
+
+##############################
+# REACT / FRONTEND FILES
+##############################
+
+# Build
+.cache/
+.eslintcache
+.stylelintcache
+
+# React Native
+android/
+ios/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+##############################
+# EDITORS & IDE FILES
+##############################
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+##############################
+# TESTING / AUTOMATION
+##############################
+
+.cypress/
+playwright-report/
+test-results/
+__snapshots__/
+
+##############################
+# OTHER COMMON ARTIFACTS
+##############################
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.backup
+*.tmp
+
+# Local scripts
+scripts/local/
+scripts/dev-only/
+
+##############################
+# ENVIRONMENT SPECIFIC
+##############################
+
+# AWS / Keys
+.aws/
+.aws-sam/
+
+# Docker
+docker-compose.override.yml
+.docker/
+docker-data/
+
+##############################
+# CUSTOM PROJECT RULES
+##############################
+
+# GreedHunter temporary files
+uploads/
+cache/
+exports/
+public/uploads/
+public/temp/
+
+# Generated assets
+*.pdf
+*.png
+*.webp
+*.csv
+*.xlsx
+
+##############################
+# END OF FILE
+##############################

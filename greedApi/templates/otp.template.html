@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification - GreedHunter</title>
+    <style>
+        body { margin: 0; padding: 0; font-family: 'Arial', sans-serif; background-color: #ffffff; color: #333; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; padding: 20px 0; background-color: #f8f8f8; border-radius: 8px 8px 0 0; }
+        .content { padding: 30px; text-align: center; background-color: #ffffff; border: 1px solid #e5e5e5; border-radius: 0 0 8px 8px; }
+        .otp-code { font-size: 28px; font-weight: bold; padding: 12px 24px; border: 2px solid #333; display: inline-block; margin: 15px 0; background-color: #f9f9f9; }
+        .footer { text-align: center; padding: 20px; font-size: 12px; color: #777; }
+        .logo { font-size: 24px; font-weight: bold; color: #333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">GreedHunter</div>
+        </div>
+        <div class="content">
+            <h1>Verify Your Email</h1>
+            <p>Use the code below to verify your email address:</p>
+            <div class="otp-code">{{OTP_CODE}}</div>
+            <p>If you didn't request this, ignore this email.</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2025 GreedHunter. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

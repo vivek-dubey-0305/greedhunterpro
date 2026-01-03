@@ -1,0 +1,1 @@
+export { QuizzesManagement } from './QuizzesManagement';
